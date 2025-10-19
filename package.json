@@ -1,0 +1,15 @@
+{
+  "name": "resume-webpage-tailwind",
+  "version": "1.0.0",
+  "description": "Responsive resume webpage built with Tailwind CSS",
+  "main": "src/index.html",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+    "watch:css": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "author": "",
+  "license": "MIT",
+    "devDependencies": {
+      "tailwindcss": "^3.4.0"
+    }
+  }
